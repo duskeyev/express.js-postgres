@@ -1,5 +1,5 @@
 const express = require('express')
-const userRouter = require('./routes/user.router')
+const userRouter = require('./routes/users.router')
 const app = express()
 const PORT = process.env.PORT | 3000
   
